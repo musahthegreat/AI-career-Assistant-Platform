@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Musahthe Greate — AI Engineer & Machine Learning Full‑stack Developer</title>
+  <meta name="description" content="Musahthe Greate — AI Engineer, Machine Learning & Full‑stack Developer. Portfolio, projects, and contact." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand" aria-label="Site identity">
+        <img class="avatar" src="https://ui-avatars.com/api/?name=Musahthe+Greate&size=128&background=2563eb&color=fff" alt="Musahthe Greate avatar" />
+        <div class="brand-text">
+          <h1 class="logo">Musahthe Greate</h1>
+          <div class="role">AI Engineer — Machine Learning &amp; Full‑stack Developer</div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <nav class="nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="buttons">
+          <a class="btn outline" href="resume.pdf" download>Download Resume</a>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-inner">
+        <div>
+          <h2>Hi — I'm Musahthe Greate</h2>
+          <p class="lead">AI Engineer, Machine Learning &amp; Full‑stack Developer. I build intelligent systems, scalable web apps, and practical ML tooling that powers career and job search experiences.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View projects</a>
+            <a class="social-link" href="https://github.com/musahthegreat" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+            <a class="social-link" href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <!-- decorative illustration / placeholder -->
+          <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-graphic">
+            <rect width="160" height="160" rx="20" fill="#2563eb" opacity="0.08"/>
+            <circle cx="80" cy="60" r="28" fill="#2563eb" opacity="0.12"/>
+            <rect x="36" y="100" width="88" height="28" rx="8" fill="#2563eb" opacity="0.08"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="features container">
+      <h3>Selected Projects</h3>
+      <p class="muted">Examples of projects related to AI, career tools, and web apps. Click the buttons to view the repository.</p>
+      <div class="projects-grid" role="list">
+        <article class="project-card" role="listitem">
+          <h4>AI-career-Assistant-Platform</h4>
+          <p>AI-powered platform designed to assist users in their career development and job search journey.</p>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/musahthegreat/AI-career-Assistant-Platform" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            <a class="link-muted" href="#">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem">
+          <h4>AI-Job-Recommendation-System</h4>
+          <p>Flask-based application that recommends jobs based on user skills and profile.</p>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/musahthegreat/AI-Job-Recommendation-System" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            <a class="link-muted" href="#">Write-up</a>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem">
+          <h4>More on GitHub</h4>
+          <p>See the rest of my repositories for libraries, demos, and research code.</p>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/musahthegreat?tab=repositories" target="_blank" rel="noopener noreferrer">All Repos</a>
+            <a class="link-muted" href="#">Notes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>Contact</h3>
+      <p>If you'd like to get in touch, send a message or open your email client using the form below. To receive messages on the site, replace the form action with a Formspree endpoint or another form backend.</p>
+
+      <form id="contact-form" aria-label="Contact form">
+        <label>
+          Name
+          <input type="text" name="name" id="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" id="email" placeholder="your@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" id="message" rows="4" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn">Send (opens email)</button>
+          <small class="muted">Or add a backend (Formspree) to capture messages on the site.</small>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <small>© <span id="year"></span> Musahthe Greate — AI Engineer &amp; Machine Learning Full‑stack Developer</small>
+      <div>
+        <a class="link-muted" href="https://github.com/musahthegreat" target="_blank" rel="noopener">GitHub</a>
+        <span class="sep">•</span>
+        <a class="link-muted" href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
